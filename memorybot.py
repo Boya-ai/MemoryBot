@@ -13,7 +13,7 @@ from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMP
 from langchain.llms import OpenAI
 
 # Set Streamlit page configuration
-st.set_page_config(page_title='🧠MemoryBot🤖', layout='wide')
+st.set_page_config(page_title='🧠YaelBot🤖', layout='wide')
 # Initialize session states
 if "generated" not in st.session_state:
     st.session_state["generated"] = []
